@@ -11,7 +11,7 @@ export const tours: Tour[] = [
     id: '1',
     title: 'Uttarakhand Adventure',
     description: 'Explore the majestic Himalayas, visit sacred temples, and experience the thrill of white-water rafting in the land of gods. From Rishikesh to Haridwar, discover spiritual serenity and adventure.',
-    image: 'https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    image: 'https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
     slug: 'uttarakhand-adventure',
   },
   {
@@ -39,7 +39,7 @@ export const tours: Tour[] = [
     id: '5',
     title: 'Kashmir Valley',
     description: 'Discover the paradise on earth with our Kashmir tour. Experience Dal Lake shikaras, Mughal gardens, and snow-capped mountains in this heavenly destination.',
-    image: 'https://images.pexels.com/photos/11358653/pexels-photo-11358653.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    image: 'https://images.pexels.com/photos/12186839/pexels-photo-12186839.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
     slug: 'kashmir-valley',
   },
   {
@@ -60,14 +60,14 @@ export const tours: Tour[] = [
     id: '8',
     title: 'South India Temple Trail',
     description: 'Embark on a spiritual journey through South Indias magnificent temples. Experience the architectural marvels and rich traditions of Tamil Nadu and Karnataka.',
-    image: 'https://images.pexels.com/photos/5430839/pexels-photo-5430839.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    image: 'https://images.pexels.com/photos/6766427/pexels-photo-6766427.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
     slug: 'south-india-temple-trail',
   },
   {
     id: '9',
     title: 'Northeast Explorer',
     description: 'Discover the unexplored beauty of Northeast India. From Assam tea gardens to Meghalaya living bridges, experience the diverse cultures and landscapes.',
-    image: 'https://images.pexels.com/photos/9811818/pexels-photo-9811818.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    image: 'https://images.pexels.com/photos/2825225/pexels-photo-2825225.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
     slug: 'northeast-explorer',
   },
 ];
