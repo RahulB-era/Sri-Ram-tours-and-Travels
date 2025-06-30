@@ -46,8 +46,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-bold text-charcoal mb-1">Address</h4>
                     <p className="text-gray-600">
-                      123 Travel Street, Tourism District<br />
-                      New Delhi - 110001, India
+                      Tugalkabad Extn. New Delhi - 110019
                     </p>
                   </div>
                 </div>
@@ -58,8 +57,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-bold text-charcoal mb-1">Email</h4>
                     <p className="text-gray-600">
-                      info@sriramtours.com<br />
-                      booking@sriramtours.com
+                      ayandasn4@gmail.com
                     </p>
                   </div>
                 </div>
@@ -70,14 +68,14 @@ const Contact = () => {
                   <div>
                     <h4 className="font-bold text-charcoal mb-1">Phone</h4>
                     <p className="text-gray-600 mb-4">
-                      +91 98765 43210<br />
-                      +91 87654 32109
+                      +91 9818211863<br />
+                      +91 8595498226
                     </p>
                     <Button 
                       variant="icon" 
                       className="bg-primary hover:bg-red-700 mr-4"
                       as="a"
-                      href="tel:+919876543210"
+                      href="tel:+919818211863"
                     >
                       <Phone className="w-4 h-4 mr-2" />
                       CALL US
@@ -91,7 +89,7 @@ const Contact = () => {
                     variant="icon" 
                     className="bg-whatsapp hover:bg-green-600"
                     as="a"
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/919818211863"
                     target="_blank"
                   >
                     <MessageCircle className="w-4 h-4 mr-2" />

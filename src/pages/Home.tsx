@@ -150,16 +150,15 @@ const Home = () => {
                   <div className="space-y-4">
                     <div>
                       <p className="text-gray-600">Address:</p>
-                      <p className="font-medium">123 Travel Street, Tourism District</p>
-                      <p className="font-medium">New Delhi - 110001</p>
+                      <p className="font-medium">Tugalkabad Extn. New Delhi - 110019</p>
                     </div>
                     <div>
                       <p className="text-gray-600">Email:</p>
-                      <p className="font-medium">info@sriramtours.com</p>
+                      <p className="font-medium">ayandasn4@gmail.com</p>
                     </div>
                     <div>
                       <p className="text-gray-600">Phone:</p>
-                      <p className="font-medium">+91 98765 43210</p>
+                      <p className="font-medium">+91 9818211863, +91 8595498226</p>
                     </div>
                   </div>
                 </div>
@@ -168,7 +167,7 @@ const Home = () => {
                     variant="icon" 
                     className="bg-primary hover:bg-red-700"
                     as="a"
-                    href="tel:+919876543210"
+                    href="tel:+919818211863"
                   >
                     <Phone className="w-5 h-5 mr-2" />
                     CALL US
@@ -177,7 +176,7 @@ const Home = () => {
                     variant="icon" 
                     className="bg-whatsapp hover:bg-green-600"
                     as="a"
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/919818211863"
                     target="_blank"
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />
