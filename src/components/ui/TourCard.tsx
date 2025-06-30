@@ -14,7 +14,10 @@ interface TourCardProps {
 
 const TourCard: React.FC<TourCardProps> = ({ tour }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group animate-slideUp">
+    <Link 
+      to={`/tours/${tour.slug}`}
+      className="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group animate-slideUp"
+    >
       <div className="relative overflow-hidden">
         <img
           src={tour.image}
@@ -34,15 +37,14 @@ const TourCard: React.FC<TourCardProps> = ({ tour }) => {
         <p className="text-gray-600 mb-4 line-clamp-3">
           {tour.description}
         </p>
-        <Link
-          to={`/tours/${tour.slug}`}
-          className="inline-flex items-center gap-2 text-primary font-bold hover:text-red-700 transition-colors"
+        <div
+          className="inline-flex items-center gap-2 text-primary font-bold group-hover:text-red-700 transition-colors"
         >
           Read More
           <ArrowRight className="w-4 h-4" />
-        </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -11,7 +11,7 @@ export const tours: Tour[] = [
     id: '1',
     title: 'Uttarakhand Adventure',
     description: 'Explore the majestic Himalayas, visit sacred temples, and experience the thrill of white-water rafting in the land of gods. From Rishikesh to Haridwar, discover spiritual serenity and adventure.',
-    image: 'https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    image: 'https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
     slug: 'uttarakhand-adventure',
   },
   {
